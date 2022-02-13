@@ -26,9 +26,6 @@ public class Payment implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	
-	@Min(100000)
-	@Max(999999)
 	@Column(name="payment_number")
 	private Integer paymentNumber;
 
